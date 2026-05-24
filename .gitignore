@@ -851,8 +851,7 @@ jspm_packages/
 *.idv
 *.lg
 *.tmp
-*.xref
-*.html           
+*.xref        
 
 # --- Directorios de salida habituales ---
 _latex_build/
