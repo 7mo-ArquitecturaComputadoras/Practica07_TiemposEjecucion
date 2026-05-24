@@ -1,4 +1,4 @@
-# ⏱️ Práctica 07 — Tiempos de Ejecución: Producto Punto en FPU, SSE y AVX
+# 🔢 Práctica 07 — Tiempos de Ejecución: Producto Punto en FPU, SSE y AVX
 
 Programa mixto **ensamblador x64 (MASM) + C++** que compara los tiempos de ejecución de **tres implementaciones equivalentes** del producto punto entre vectores de `float`: una con la **FPU x87** (un dato por iteración), otra con **SSE** (cuatro `float` en paralelo, 128 bits) y la tercera con **AVX** (ocho `float` en paralelo, 256 bits). La medición se realiza con la instrucción `RDTSC` envuelta en barreras `LFENCE` para obtener el conteo de ciclos del procesador con precisión.
 
