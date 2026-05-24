@@ -82,10 +82,7 @@ Practica07_TiemposEjecucion/
 │   ├── README_compilacion_latex.md             # Cómo compilar el .tex a PDF
 │   ├── reporte.pdf                             # Reporte técnico compilado
 │   ├── reporte.tex                             # Reporte técnico en LaTeX
-│   └── imagenes/
-│       ├── consola_ejecucion.png               # Salida del programa
-│       ├── registros_avx.png                   # Inspección de YMM0/YMM1 en VS
-│       └── comparacion_ciclos.png              # Gráfico comparativo FPU/SSE/AVX
+│   └── imagenes/                               # Imágenes usadas en el reporte
 │
 ├── proyecto/
 │   ├── README_instalacion.md                   # Guía de instalación y puesta en marcha
